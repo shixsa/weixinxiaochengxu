@@ -1,0 +1,2 @@
+<import src="./travel.vue.wxml" />
+    <template is="0c8eb588" data="{{ ...$root['0'], $root }}"/>
