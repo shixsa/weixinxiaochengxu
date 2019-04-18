@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../untitled/web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../untitled/quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/../untitled/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/../untitled/web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/../untitled/out" />
+  </component>
+</project>
