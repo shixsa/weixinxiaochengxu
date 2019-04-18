@@ -1,0 +1,29 @@
+
+<view class='a' wx:for="{{asd}}">
+<view class='a_1'>
+<!-- 标题 -->
+<view class='a_1_1'>
+<text class='biaoti'>{{item.biaoti}}</text>
+</view>
+
+<!-- 图片 -->
+<view class='a_1_2'>
+<view class='a_1_2_1'>
+<image src='{{item.img1}}' mode='scaleToFill' class='images'></image>
+</view>
+<view class='a_1_2_2'>
+<image src='{{item.img2}}' mode='scaleToFill' class='images'></image>
+</view>
+<view class='a_1_2_3'>
+<image src='{{item.img3}}' mode='scaleToFill' class='images'></image>
+</view>
+</view>
+
+<!-- 简介 -->
+<view class='a_1_3'>
+
+{{item.jianjie}}
+
+</view>
+</view>
+</view>

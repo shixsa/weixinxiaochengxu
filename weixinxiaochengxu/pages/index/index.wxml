@@ -1,0 +1,9 @@
+<view class='a'>
+<view>
+<image src='{{img}}' class='img'></image>
+<text class='name'>{{name}}</text>
+</view>
+<view>
+<button bindtap='asd'>文章</button>
+</view>
+</view>

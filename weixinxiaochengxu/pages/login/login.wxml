@@ -1,0 +1,24 @@
+<view class='a'>
+
+<view>
+<image src='../../static/default.png' class='img'></image>
+</view>
+<view>
+<view>
+<text>账号：</text>
+<input value='{{zhanghao}}' name='zhanghao' bindinput='formName'></input>
+</view>
+<view>
+<text>密码：</text>
+<input password value='{{password}}' name='password' bindinput='formName1'></input>
+</view>
+<text>{{asd}}</text>
+</view>
+
+
+<view>
+<button bindtap='login'>登录</button>
+<button bindtap='zhuce'>注册</button>
+</view>
+
+</view>
