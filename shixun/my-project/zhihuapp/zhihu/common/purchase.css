@@ -1,0 +1,168 @@
+/* 头部 */
+.status {
+	width: 100%;
+	height: 0;
+	/*  #ifdef  APP-PLUS  */
+	height: var(--status-bar-height);
+	/*  #endif  */
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+/* 分页导航 */
+.header {
+	width: 100%;
+	height: 100upx;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	/*  #ifdef  APP-PLUS  */
+	top: var(--status-bar-height);
+	/*  #endif  */
+	z-index: 999;
+}
+
+.header .uni-icon-person {
+	width: 100upx;
+	height: 100upx;
+	flex-shrink: 1;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #06C1AE;
+}
+
+.input {
+	width: calc(100% - 200upx);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.input .icon {
+	width: 60upx;
+	height: 60upx;
+	position: absolute;
+	color: #a18090;
+	z-index: 996;
+	top: 20upx;
+	left: 0;
+	font-size: 40upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input input {
+	width: calc(100% - 60upx);
+	height: 60upx;
+	background-color: #F3F3F3;
+	border-radius: 60upx;
+	padding-left: 60upx;
+	font-size: 30upx;
+}
+
+.menu {
+	width: 100upx;
+	height: 100upx;
+	flex-shrink: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.uni-icon {
+	color: #06C1AE;
+}
+
+.place {
+	/*  #ifdef  APP-PLUS  */
+	margin-top: var(--status-bar-height);
+	/*  #endif  */
+	background-color: #fff;
+	height: 100upx;
+}
+
+/* 轮播盒子 */
+.swiper {
+	border-radius: 20upx;
+	height: 100px;
+	overflow: hidden;
+}
+
+.swiper image {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper_box {
+	padding: 10px 15px;
+	background-color: #fff;
+}
+
+/*  */
+.classfiy1 {
+	/* padding: 0 20upx; */
+}
+
+/* 分类 */
+.classfiy1 {
+	background-color: #fefefe;
+}
+
+.classfiy {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10upx 0upx;
+	padding-bottom: 20upx;
+	background-color: #fefefe;
+	border-radius: 20upx;
+}
+
+.classfiy_box {
+	width: 25%;
+	text-align: center;
+	padding: 10upx 0;
+}
+
+.classfiy-img {
+	width: 100upx;
+	height:100upx;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+.classfiy-img image {
+	width: 100upx;
+	height:100upx;
+
+	border-radius: 50%;
+}
+
+.classfiy_class {
+	font-size: 24upx;
+	color: #4C4C4C;
+	margin-top: 2px;
+}
+.center{
+	margin-top: 10px;
+}
+.center-box{
+	display: flex;
+	justify-content: space-between;
+	padding:20upx 20upx;
+	background-color: #fff;
+}
+.center-box view{
+	color:#8F8F94;
+}
+.uni-icon.uni-icon-arrowdown{
+	color:#8F8F94;
+}

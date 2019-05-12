@@ -1,0 +1,1 @@
+<template name="292e43b0"><view class="_view data-v-289e8277 content"><view class="_view data-v-289e8277 box"><input type="text" class="_input data-v-289e8277 password" placeholder="请输入密码" /></view><navigator class="_navigator data-v-289e8277 register" url="../signin/signin"><button class="_button data-v-289e8277 rightnow">立即注册</button></navigator></view></template>

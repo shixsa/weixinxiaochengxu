@@ -1,0 +1,2 @@
+<import src="./flowerworld.vue.wxml" />
+    <template is="615d20b8" data="{{ ...$root['0'], $root }}"/>
